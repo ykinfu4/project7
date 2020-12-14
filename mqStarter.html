@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8"/>
+    <title>Explore Seoul</title>
+    <link rel="stylesheet" type="text/css" media="only screen and (min-device-width: 800px" />
+  <head>
+    <style>
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        font: 1.2em/1.4 Arial, Helvetica, sans-serif;
+      }
+
+      body {
+        padding: 0 0 1em;
+      }
+
+      h1{
+        color: #a31621;
+      }
+  
+
+      header {
+        background-color: #ab92bf;
+        color: #ffd23f;
+        border: 5px solid #655a7c;
+      }
+
+      header ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+
+      li{
+        float: right;
+      }
+
+      header a {
+        color: #a31621;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        padding: 0.5em 1em;
+      }
+
+      header .title {
+        font-size: 150%;
+        font-style: italic;
+        font-weight: bold;
+        padding: 1em;
+      }
+
+      .cards {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .cards li{
+        border: 2px solid #ffd23f;
+        width: 350px;
+        height: 250px;
+        margin-left: 10px;
+        margin-top: 15px;
+        display: inline-block;
+        float:left;
+      }
+
+      .cards h2 {
+        background-color: #f9fbb2;
+        color: #655a7c;
+        margin: 0;
+        padding: 0.5em 1em;
+      }
+      .cards .inner {
+        padding: 0.5em 1em;
+        color: #655a7c;
+        height: 150px;
+        overflow-y: scroll;
+      }
+
+      .sidebar {
+        background-color: #f9fbb2;
+        border: 5px solid #ffd23f;
+        padding: 0.5em 1em;
+        color: #655a7c;
+        position: fixed;
+        right: 5px;
+        width: 290px;
+        height: 680px;
+        top: 180px;
+      }
+
+      .main-para{
+        width: 65%;
+        color: #655a7c;
+      }
+
+
+ 
+
+    @media screen and (max-width: 800px){
+      * {
+        box-sizing: border-box;
+      }
+
+      .sidebar {
+        height: 450px;
+        width: 30%;
+        
+      }
+
+      html {
+        font: 1.2em/1.4 Arial, Helvetica, sans-serif;
+      }
+
+      body {
+        padding: 0 0 1em;
+      }
+
+      img{
+        width: 50%;
+      }
+
+      header {
+        background-color: #ab92bf;
+        color: #655a7c;
+        border: 5px solid #000;
+      }
+
+      header ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      header a {
+        color: #a31621;
+        text-decoration: none;
+        display: block;
+        padding: 0.5em 1em;
+        border-top: 1px solid #999;
+      }
+
+      header .title {
+        font-size: 150%;
+        font-style: italic;
+        font-weight: bold;
+        padding: 1em;
+      }
+
+      main {
+        padding: 0 1em;
+      }
+
+      .cards {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .cards li {
+        border: 2px solid #ffd23f;
+        margin-bottom: 1em;
+      }
+
+      .cards h2 {
+         background-color: #f9fbb2;
+        color: #655a7c;
+        margin: 0;
+        padding: 0.5em 1em;
+      }
+
+      .cards .inner {
+        padding: 0.5em 1em;
+        color: #655a7c;
+        height: 150px;
+        overflow-y: scroll;
+
+      }
+
+      #qr{
+        width: 30%;
+      }
+
+      video{
+        width: 60%;
+        height: auto;
+      }
+
+    }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+    <header>
+      <div class="title">Explore Seoul</div>
+      <nav>
+        <ul>
+          <li>
+            <a href="">Itinerary</a>
+          </li>
+          <li>
+            <a href="">Travel Agent</a>
+          </li>
+          <li>
+            <a href="">Explore</a>
+          </li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <main>
+      <article>
+
+
+
+        <h1>I love Seoul</h1>
+        <p class="main-para">Seoul is the high energy capital of South Korea. A modern city that's home to 9.7 million city, it is considered to be a global city with the world's 4th largest metropolitan economy. </p>
+
+        <p class="main-para">As a result the city has so much to offer for every taste. World class dinning check. A foodie's paradise? Check. Night life that never sleeps? Check. In Seoul, the belief is work hard and play hard. There is so much to experience in the city of a million lights with the blazing neon signs lighting your way allowing you to get anywhere at night. You can take the train or transit to visit up to 25 districts spread north and south of the Han River, which divides the city in half. </p>
+
+      <aside class="sidebar">
+            <p>Have you discovered all of the other excellent content on this website?</p>
+            <img src="images/qrccode.png" id="qr">
+      </aside>
+
+
+        <ul class="cards">
+          <li>
+            <h2>Party In Seoul</h2>
+            <div class="inner">
+              <p><img src="images/parties.png" >You work and play hard in Seoul, so chances are you will want to experience the party scene. Post up in Hongdae or Itaewon, where you can go club, loung or bar hopping because these are all right at your front door. The parties go on 24 hours a day, so there is always an experience to be had. </p>
+            </div>
+          </li>
+          <li>
+            <h2>Shopping In Seoul</h2>
+            <div class="inner">
+              <p><img src="images/shopping.png" >Shopping. Shopping. Shopping. You can visit Myeongdong or Gangnam where you can experience high end and speciality boutiques. Here you will experience shopping in underground shopping centers and malls, where you will find Louis Vuitton, Chanel, Versace and other famed designer stores.  </p>
+            </div>
+          </li>
+          <li>
+            <h2>Art-Culture In Seoul</h2>
+            <div class="inner">
+              <p><img src="images/art.png">A place rich in history you can experience South Korean culture when you visit Jongno, which is the heart of Seoul and home to the royal palaces and traditional hanok homes. You can also stay in a honok if you desire by booking a guesthouse in Bukchon. You can experience Mullae on the west side and Seongsu on the east side, which laid back areas. </p>
+            </div>
+          </li>
+          <li>
+            <h2>Staying in Seoul</h2>
+            <div class="inner">
+              <p><img src="images/living.png">There are hotels, guesthouses, hostels and airnbs throughout the country. You can find western style that come with beds or experience Korean style sleeping on the floor. </p>
+            </div>
+          </li>
+          <li>
+            <h2>Experience Seoul</h2>
+            <div class="inner">
+               <video width="320" height="150" controls>
+                <source src="https://youtu.be/sr3O7ArQTYY" >
+                  Your browser does not support the video tag.
+              </video>
+            </div>
+          </li>
+
+        </ul>
+      </article>
+    </main>
+
+  </body>
+
+</html>
